@@ -1,0 +1,4 @@
+baseUrlDev = https://dev-api.example.com/api/v1/
+baseUrlStg = https://staging-api.example.com/api/v1/
+baseUrlRelease = https://api.example.com/api/v1/
+appVersion = https://dev-api.example.com/api/app-versions

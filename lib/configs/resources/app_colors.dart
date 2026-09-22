@@ -1,0 +1,83 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  Color black = const Color(0xff000000);
+  Color white = const Color(0xFFffffff);
+  Color red = const Color(0xffF44137);
+  Color orange = const Color(0xffffa011);
+  Color darkRed = const Color(0xffC91818);
+  Color transparent = const Color(0x0000ffff);
+  Color lightGreyColor = const Color(0xff707070);
+  Color greyBackgroundColor = const Color(0xffF5F5F5);
+  Color backgroundColor = const Color(0xffFBFBFB);
+  Color shadowColor = const Color(0x4DB80079);
+  Color pink = const Color(0xFFB80079);
+  Color lightPink = const Color(0xFFFBF2F8);
+
+  // Color primaryColor = const Color(0xff01387B);
+  Color lightGreenColor = const Color(0xffE6EEE7);
+  Color splachBackgroundColor = const Color(0xff01387B);
+  Color fillColor = const Color(0xffF9F9F9);
+  Color veryLightGrey = const Color(0xffF5F6FA);
+  Color hintColor = const Color(0xffA2A2A2);
+  Color disableIcon = const Color(0xffE7E7E7);
+  Color borderColor = const Color(0xffECECEC);
+  Color textColor = const Color(0xff09101D);
+  Color whiteColor = const Color(0xFFF4F7F6);
+  Color unselectedText = const Color(0xffE4E4E4);
+  Color counterBackground = const Color(0xffC0DBFD);
+  Color dividerColor = const Color(0xffE6E6E6);
+  Color lightBlueColor = const Color(0xffDBECFE);
+  Color blueColor = const Color(0xff21439F);
+  Color appOrane = const Color(0xffE89425);
+  Color orangeLight = const Color(0xffffedd6);
+  Color appYellow = const Color(0xffD2AA30);
+  Color yellowLight = const Color(0xffFDF5EA);
+  Color appNavy = const Color(0xff5336A0);
+  Color navyLight = const Color(0xffecebfd);
+
+  Color blackTextColor = const Color(0xff12192F);
+  Color blackTextColor5 = const Color(0xff12192F).withValues(alpha: 0.05);
+  Color blackTextColor10 = const Color(0xff12192F).withValues(alpha: 0.1);
+  Color blackTextColor20 = const Color(0xff12192F).withValues(alpha: 0.2);
+  Color blackTextColor30 = const Color(0xff12192F).withValues(alpha: 0.3);
+  Color blackTextColor50 = const Color(0xff12192F).withValues(alpha: 0.5);
+  Color redTextColor = const Color(0xffA2272F);
+  Color redTextColor5 = const Color(0xffA2272F).withValues(alpha: 0.05);
+  Color redTextColor10 = const Color(0xffA2272F).withValues(alpha: 0.1);
+  Color greenTextColor = const Color(0xff00C687);
+  Color secondaryColor = const Color(0xFFB80079);
+  Color secondaryColor2 = const Color(0xFFF04CB8);
+  Color primaryColor = const Color(0xFF04948C);
+  Color primaryColor2 = const Color(0xFF03D3C7);
+  Color primaryColor3 = const Color(0xFF7DF1E4);
+  Color primaryDarkerColor = Color.alphaBlend(Colors.black.withValues(alpha: 0.1), Color(0xFF04948C));
+  Color primaryLighterColor = Color.alphaBlend(Colors.white.withValues(alpha: 0.1), Color(0xFF04948C));
+  Color primaryLight = const Color(0xFFcdf6f4);
+  Color primaryColor15 = const Color(0x2604948C);
+  Color secondaryColor15 = const Color(0XffFBF2F8);
+  Color scaffoldBackground = const Color(0xFFFFFFFF);
+  Color primaryColor5 = const Color(0xff00C687).withValues(alpha: 0.05);
+  Color primaryColor10 = const Color(0xff00C687).withValues(alpha: 0.1);
+  Color primaryColor30 = const Color(0xff00C687).withValues(alpha: 0.3);
+  Color primaryColor40 = const Color(0xff00C687).withValues(alpha: 0.4);
+  Color primaryColor50 = const Color(0xff00C687).withValues(alpha: 0.5);
+  Color primaryColor90 = const Color(0xff00C687).withValues(alpha: 0.9);
+  Color primaryLightColor = const Color(0xff88CDC8);
+  Color greyBorderColor = const Color(0xffF2F2F2);
+  Color greyBorderColor50 = const Color(0xffF2F2F2).withValues(alpha: 0.5);
+  Color greyColor = const Color(0xffF7F8FA);
+  Color checkBoxBorderColor = const Color(0xffEDEDED);
+  Color hintTextColor = const Color(0xFF09101D);
+  Color profileBorderColor = const Color(0xffDDDDDD);
+
+  // Session Status Colors
+  Color sessionCompleted = const Color(0xFF36C59F);
+  Color sessionCompletedBg = const Color(0xFFE6FDF7);
+  Color sessionInProgress = const Color(0xFFFF007A);
+  Color sessionInProgressBg = const Color(0xFFFFF0F9);
+  Color sessionPending = const Color(0xFFFFA500);
+  Color sessionPendingBg = const Color(0xFFFFF5E6);
+  Color sessionNotStarted = Color(0xffA2A2A2);
+  Color sessionNotStartedBg = const Color(0xFFF7F8FA);
+}
