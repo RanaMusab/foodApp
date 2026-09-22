@@ -14,7 +14,7 @@ import Foundation
 enum AppSecrets {
   static var googleMapsApiKey: String {
     let key = Bundle.main.object(forInfoDictionaryKey: "GoogleMapsApiKey") as? String
-    guard let key, !key.isEmpty, !key.hasPrefix("YOUR_") else {
+    guard let key, !key.isEmpty, !key.hasPrefix("ADD_YOUR") else {
       assertionFailure(
         "Missing Google Maps API key. Copy ios/Flutter/Secrets.example.xcconfig "
           + "to Secrets.xcconfig and set GOOGLE_MAPS_API_KEY."

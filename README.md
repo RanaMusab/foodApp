@@ -51,10 +51,10 @@ cp env_example.txt .env
 ```bash
 # iOS
 cp ios/Flutter/Secrets.example.xcconfig ios/Flutter/Secrets.xcconfig
-# then set GOOGLE_MAPS_API_KEY
+# then replace ADD_YOUR_GOOGLE_MAP_KEY with your key
 
 # Android — add to android/local.properties
-echo "googleMapsApiKey=YOUR_KEY" >> android/local.properties
+echo "googleMapsApiKey=ADD_YOUR_GOOGLE_MAP_KEY" >> android/local.properties
 ```
 
 Restrict the key in Google Cloud Console: Android by package name + SHA-1, iOS
